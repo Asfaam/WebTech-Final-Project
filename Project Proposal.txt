@@ -1,0 +1,34 @@
+Project Description: Attendance Management System for Lecturers and Faculty Interns
+
+Overview:
+This 'Attendance Management System for Lecturers and Faculty Interns' project aims to develop a comprehensive Attendance Management System for lecturers and faculty interns to efficiently track student attendance in classes. This system will provide a user-friendly interface for recording attendance, maintaining a detailed record of attendance dates, and automating notifications for student absenteeism.
+
+Features:
+ 
+User Roles:
+	Lecturer: Can create classes, add students, take attendance (keenly recording dates), and view attendance records.
+Faculty Intern: Can assist in taking attendance under the supervision of the lecturer.
+
+	Attendance Recording:
+Lecturers and interns can mark student attendance for each class session.
+The system will store attendance data securely and maintain a history of all attendance dates.
+
+	Automated Notifications:
+If a student misses class for three consecutive days, the system will automatically send notifications to the student and the lecturer.
+Notifications will serve as alerts for absenteeism, prompting necessary actions to be taken.
+
+	Reporting and Analytics:
+Generate reports on student attendance patterns, trends, and overall class attendance rates.
+Analyze data to identify students with frequent absences for intervention.
+
+	User-Friendly Interface:
+Intuitive design for easy navigation and efficient attendance management.
+Responsive layout for access on various devices.
+
+
+Benefits:
+Streamlined attendance tracking process for lecturers and interns.
+
+Future Enhancements:
+Machine learning algorithms for predictive attendance analysis.
+Mobile application development for on-the-go attendance management.
