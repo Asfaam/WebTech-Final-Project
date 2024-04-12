@@ -1,0 +1,68 @@
+/* adminPage.css */
+
+/* Add your custom styles here */
+body {
+    font-family: 'Goudy Old Style';
+}
+
+.icon {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;   
+}
+
+.assigned-chores {
+    background-color: #00FFFF; /* Cyan */
+}
+
+.in-progress {
+    background-color: #ffcc00; /* Yellow */
+}
+
+.complete {
+    background-color: #00cc00; /* Green */
+}
+
+.incomplete {
+    background-color: #ff0000; /* Red */
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: #fff;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.txt:hover::after {
+    content: "restricted access except for the Lecturer and FI";
+    position: absolute;
+    top: calc(100% + 5px); 
+    left: calc(50% - 100px); 
+transform: translateX(-50%);
+    background-color:  #ffcc00;
+    color: red;
+    padding: 10px; 
+    border-radius: 5px;
+    font-family: Goudy Old Style;
+    font-size: 18px;;
+}
+
+.logout-link {
+    color: black; 
+    text-decoration: none; 
+}
+
+.logout-link:hover {
+    color: blue; 
+    text-decoration: none; 
+    font-weight: bold; 
+}
